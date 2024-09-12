@@ -1,0 +1,803 @@
+    1  chsh -s /bin/zsh
+    2  code
+    3  code --version
+    4  shell command
+    5  code
+    6  code --version
+    7  code
+    8  git --version
+    9  xcode-select --help
+   10  xcode-select --version
+   11  git config user.name
+   12  git config --list --global
+   13  git config --global user.name "kartikwar"
+   14  git config --global user.email "kartiksirwani@gmail.com"
+   15  code ~/.gitconfig 
+   16  git config --list --global
+   17  vim ~/.bash_profile 
+   18  code ~/.bash_profile 
+   19  git config --global core.editor "code --wait"
+   20  code ~/.bashrc
+   21  uname -a
+   22  conda activate
+   23  conda env list
+   24  conda init --reverse --all
+   25  rm -rf anaconda3
+   26  rm -rf ~/anaconda3
+   27  sudo rm -rf /opt/anaconda3/
+   28  echo $HOME
+   29  cd ~/Downloads/
+   30  echo $HOME
+   31  cd ~/Downloads/
+   32  bash Miniforge3-24.3.0-0-MacOSX-arm64.sh -b -p "${HOME}/miniforge3"
+   33  source "${HOME}/miniforge3/etc/profile.d/conda.sh"
+   34  conda activate
+   35  conda init
+   36  conda --version
+   37  python --version
+   38  python
+   39  clear
+   40  conda install python=3.11
+   41  conda --version
+   42  python --version
+   43  python
+   44  clear
+   45  conda install pandas jupyterlab jupyterlab-git jupyterlab-spellchecker
+   46  pip install otter-grader
+   47  jupyter lab
+   48  R --version
+   49  xquartz
+   50  sudo chown -R $(whoami) .config
+   51  devtools::install_github("ucbds-infra/ottr@stable")
+   52  R -e "IRkernel::installspec()"
+   53  R -e "IRkernel::installspec()"
+   54  jupyter lab
+   55  quarto --version
+   56  sudo chown -R $(whoami):admin /usr/local/bin
+   57  jupyter lab
+   58  /Library/PostgreSQL/16/scripts/runpsql.sh; exit
+   59  pip install "nbconvert[webpdf]"
+   60  playwright install chromium
+   61  jupyter lab
+   62  docker run hello-world
+   63  docker run hello-world
+   64  docker run hello-world
+   65  latex --version
+   66  tlmgr install eurosym   adjustbox   caption   collectbox   enumitem   environ   fp   jknapltx   parskip   pdfcol   pgf   rsfs   soul   tcolorbox   titling   trimspaces   ucs   ulem   upquote   lwarp   oberdiek
+   67  clear
+   68  curl -Sso ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+   69  code ~/.bash_profile
+   70  code ~/.bash_profile
+   71  code
+   72  code
+   73  code
+   74  code
+   75  code
+   76  code ~/.bash_profile 
+   77  curl -Sso ~/.mds-help.sh https://raw.githubusercontent.com/UBC-MDS/UBC-MDS.github.io/master/resources_pages/mds-help.sh
+   78  mds-help
+   79  mds-help
+   80  bash <(curl -Ss https://raw.githubusercontent.com/UBC-MDS/UBC-MDS.github.io/master/resources_pages/check-setup-mds.sh)
+   81  open .
+   82  jupyter-lab
+   83  ls
+   84  cd ~/Documents/
+   85  ls
+   86  cd ubc
+   87  ls
+   88  git clone git@github.ubc.ca:mds-2024-25/DSCI_511_py-prog_students.git
+   89  git clone https://github.ubc.ca/mds-2024-25/DSCI_511_py-prog_students.git
+   90  git clone https://github.ubc.ca/mds-2024-25/DSCI_511_py-prog_students.git
+   91  git clone https://github.ubc.ca/mds-2024-25/DSCI_511_py-prog_students.git
+   92  git clone https://github.ubc.ca/mds-2024-25/DSCI_511_py-prog_students.git
+   93  git clone https://github.ubc.ca/mds-2024-25/DSCI_511_py-prog_students.git
+   94  jupyter lab
+   95  clear
+   96  jupyter lab
+   97  cd ~/Documents/
+   98  cd ubc
+   99  git clone https://github.ubc.ca/mds-2024-25/DSCI_523_worksheet1_ksirwani.git
+  100  jupyter lab
+  101  jupyter lab
+  102  clear
+  103  jupyter lab
+  104  ls ~/.jupyter/
+  105  jupyter lab --generate-config
+  106  ode ~/.jupyter/jupyter_lab_config.py 
+  107  code ~/.jupyter/jupyter_lab_config.py 
+  108  jupyter lab
+  109  jupyter lab
+  110  jupyter lab
+  111  cd ..
+  112  git clone https://github.ubc.ca/mds-2024-25/lab-sections.git
+  113  clear
+  114  jupyter lab
+  115  clear
+  116  bash <(curl -Ss https://raw.githubusercontent.com/UBC-MDS/UBC-MDS.github.io/master/resources_pages/check-setup-mds.sh)
+  117  ls
+  118  code check-setup-mds.log 
+  119  open check-setup-mds.log 
+  120  code answers.txt
+  121  cd ..
+  122  git clone https://github.ubc.ca/mds-2024-25/DSCI_521_lab0a_ksirwani.git
+  123  clear
+  124  jupyter lab
+  125  clear
+  126  cd ubc
+  127  git status
+  128  git add lab0a.ipynb 
+  129  git commit  -m "lab0a completed"
+  130  git brnach
+  131  git branch
+  132  git push origin instructor-updates
+  133  cd ~/Documents/ubc
+  134  git clone https://github.ubc.ca/mds-2024-25/DSCI_521_lab0b_ksirwani.git
+  135  jupyter lab
+  136  ls
+  137  cd DSCI_521_lab0b_ksirwani/
+  138  ls
+  139  git status
+  140  git add lab0b.*
+  141  git status
+  142  git commit -m "Assignment 0b completed"
+  143  git branch
+  144  git push origin instructor-updates
+  145  cd ~/Documents/ubc
+  146  git clone https://github.ubc.ca/mds-2024-25/DSCI_511_worksheet1_ksirwani.git
+  147  git status
+  148  git add worksheet1.ipynb 
+  149  git status
+  150  git commit -m "worksheet completed"
+  151  clear
+  152  git branch
+  153  git push origin master
+  154  cd ..
+  155  git clone https://github.ubc.ca/mds-2024-25/DSCI_511_lab1_ksirwani.git
+  156  clear
+  157  git status
+  158  git add lab1.ipynb 
+  159  git commit -m "exercise 2 completed"
+  160  clear
+  161  git status
+  162  git log
+  163  git status
+  164  git add lab1.ipynb 
+  165  git commit -m "attemoted ex3 and 4"
+  166  jupyter lab
+  167  cd ~/Documents/ubc
+  168  git clone https://github.ubc.ca/mds-2024-25/DSCI_523_lab1_ksirwani.git
+  169  git status
+  170  git add lab1.ipynb 
+  171  git commit -m "exercise 3 completed"
+  172  git log
+  173  git status
+  174  git add lab1.ipynb 
+  175  git commit -m "Ex4 completed"
+  176  clear
+  177  git status
+  178  git add lab1.ipynb 
+  179  git commit -m "ex 5 completed"
+  180  clear
+  181  jupyter lab
+  182  clear
+  183  whoami
+  184  pwd
+  185  ls
+  186  ls -f
+  187  ls
+  188  cd documents/
+  189  /Users/deepaksirwani/Documents/coding 
+  190  c /Users/deepaksirwani/Documents/coding 
+  191  cd /Users/deepaksirwani/Documents/coding 
+  192  ls -a
+  193  cd ..
+  194  cd ~/ubc
+  195  cd ubc
+  196  ls
+  197  ls -a DSCI_511_lab1_ksirwani/
+  198  ls
+  199  cd .
+  200  cd ..
+  201  cd ~
+  202  pwd
+  203  cd
+  204  cd
+  205  ls -a
+  206  nano ..
+  207  jupyter lab
+  208  mkdir test
+  209  ls
+  210  cd test
+  211  mkdir test2
+  212  cd test2/
+  213  ls
+  214  rm test2
+  215  cd ..
+  216  rm test2
+  217  rm -r test2
+  218  ls
+  219  mkdir test mds
+  220  open ./
+  221  mkdir test\ mds
+  222  mkdir "test mds"
+  223  rm -r "test mds"
+  224  mkdir "test mds"
+  225  cd ..
+  226  ls
+  227  cd test
+  228  mv test mds
+  229  mv test3 mds
+  230  mv test3 mds
+  231  mv test3 mds/test3
+  232  cp test3 mds
+  233  rm -r .
+  234  rm -r .
+  235  ls
+  236  rm -r .
+  237  cd ..
+  238  mkdir " test"
+  239  cd test
+  240  mkdir " test"
+  241  mkdir "test1"
+  242  mkdir "test2"
+  243  cp test1 test2
+  244  rm -r .
+  245  code kartik.txt
+  246  cp kartik.txt test2
+  247  ls
+  248  ls test2
+  249  rm -r *
+  250  ls
+  251  rm -f *
+  252  mkdir test2
+  253  rm -f *
+  254  rm -rf *
+  255  mkdir basketball
+  256  cd basketball/
+  257  clear
+  258  history
+  259  clear
+  260  cd ~/
+  261   brew install pandoc
+  262  jupyter lab
+  263  jupyter lab
+  264  pip install "nbconvert[webpdf]"
+  265  jupyter lab
+  266  git status
+  267  git log
+  268  git add lab1.Rmd 
+  269  git add data/edmonton_lang.xlsx 
+  270  git commit -m "exercise 4 completed"
+  271  git status
+  272  git add lab1.Rmd 
+  273  git commit -m "exercise 6 completed"
+  274  git status
+  275  git add lab1.Rmd 
+  276  git commit -m "removed useless lines"
+  277  git log
+  278  git push origin master
+  279  git status
+  280  git log
+  281  git push origin master
+  282  git status
+  283  git log
+  284  git status
+  285  git add lab1.Rmd 
+  286  git commit -m "final changes""
+  287   echo 49BCF094 && echo $HISTCONTROL && /usr/bin/env && echo 25E20113
+  288   
+  289  git commit -m "final changes"
+  290  git push origin master
+  291  git log
+  292  cd ..
+  293  cd DSCI_523_worksheet1_ksirwani/
+  294  git status
+  295  git log
+  296  git status
+  297  git add .
+  298  git commit -m "worksheet1 completed"
+  299  git status
+  300  git add .
+  301  git commit -m "comments removed""
+  302  git commit -m "comments removed"
+  303  git log
+  304  git status
+  305  git add worksheet1.Rmd 
+  306  git commit -m "pdf is knitted"
+  307  git push origin master
+  308  git log
+  309  clear
+  310  jupyter lab
+  311  git status
+  312  git add lab1.ipynb 
+  313  git commit -m "pdf is knit now"
+  314  git push origin master
+  315  jupyter lab
+  316  cd DSCI_511_worksheet1_ksirwani/
+  317  git status
+  318  git log
+  319  git status
+  320  git add worksheet1.ipynb 
+  321  git commit -m "ran kernel again"
+  322  git status
+  323  git status
+  324  git add worksheet1.ipynb 
+  325  git commit -m "comment added"
+  326  git push origin master
+  327  git status
+  328  jupyter lab
+  329  cd ~/Documents/ubc
+  330  git clone https://github.ubc.ca/mds-2024-25/DSCI_551_lab1_ksirwani.git
+  331  jupyter lab
+  332  python
+  333  jupyter lab
+  334  clear
+  335  jupyter lab
+  336  cd ~/Documents/ubc
+  337  git clone https://github.ubc.ca/mds-2024-25/DSCI_523_r-prog_students.git
+  338  jupyter lab
+  339  git clone https://github.ubc.ca/mds-2024-25/DSCI_523_worksheet2_ksirwani.git
+  340  jupyter lab
+  341  clear
+  342  git status
+  343  cd ..
+  344  cd DSCI_551_lab1_ksirwani/
+  345  git status
+  346  git add lab1.Rmd 
+  347  git commit -m "exercise 3 completed"
+  348  clear
+  349  git log
+  350  git push origin master
+  351  git status
+  352  git add .
+  353  git commit -m "done upto 4.5"
+  354  git log
+  355  git revert 6bcbef6059b62f5c33b5f3a80882a2492022c65e
+  356  git log
+  357  git status
+  358  git add lab1.Rmd 
+  359  git commit -m "4.5 compoleted"
+  360  git push origin master
+  361  git status
+  362  git add lab1.Rmd 
+  363  git commit -m "Exercise 4 completed"
+  364  jupyter lab
+  365  git clone https://github.ubc.ca/mds-2024-25/DSCI_511_worksheet2_ksirwani.git
+  366  git clone https://github.ubc.ca/mds-2024-25/DSCI_521_lab1_ksirwani.git
+  367  cd DSCI_521_lab1_ksirwani/
+  368  cd 
+  369  cd
+  370  cd ~/ubc
+  371  cd ~/Documents
+  372  cd
+  373  pwd
+  374  cd ~/..
+  375  cd ~
+  376  cd ~/..
+  377  cd ~/Documents/kart
+  378  cd kartik
+  379  ls
+  380  cd ~
+  381  ls
+  382  cd Documents/
+  383  cd ~/..
+  384  cd
+  385  pwd
+  386  cd /
+  387  ls
+  388  pwd
+  389  cd ~/Documents/
+  390  cd ..
+  391  pwd
+  392  cd ~/Documents/
+  393  PWD
+  394  ls
+  395  cd canada
+  396  ls
+  397  cd ../../
+  398  mkdir Vrada
+  399  mkdir Florencia
+  400  cd Florencia
+  401  mkdir dashboard
+  402  cd dashboard/
+  403  mkdir shiny-app
+  404  cd shiny-app/
+  405  cd ../../
+  406  jupyter lab
+  407  cd ..
+  408  jupyter lab
+  409  clear
+  410  ssh-keygen -t ed25519 -C "your_email@example.com"
+  411  ssh-keygen -t ed25519 -C "kartiksirwani@gmail.com"
+  412  code /Users/deepaksirwani/.ssh/id_ed25519.pub
+  413  eval "$(ssh-agent -s)"
+  414  code ~/.ssh/config 
+  415  git clone git@github.ubc.ca:mds-2024-25/DSCI_511_lab1_ksirwani.git
+  416  ls
+  417  git clone git@github.com:kartikwar/Swin-Transformer-Semantic-Segmentation.git
+  418  git clone git@github.com:kartikwar/Swin-Transformer-Semantic-Segmentation.git
+  419  clear
+  420  git clone git@github.com:kartikwar/521repository.git
+  421  code 521repository/
+  422  clear
+  423  git status
+  424  git add .
+  425  git commit -m "add a readme file"
+  426  clear
+  427  git status
+  428  git add .
+  429  git commit -m "add a readme file"
+  430  git push origin master
+  431  clear
+  432  cd ~/Documents/ubc/DSCI_511_worksheet2_ksirwani/
+  433  jupyter lab
+  434  cd ~/Documents/ubc
+  435  jupyter lab
+  436  ssh -T git@github.com
+  437  ssh -T git@github.ubc.ca
+  438  python
+  439  clear
+  440  ssg -T git@github.ubc.ca
+  441  ssh -T git@github.ubc.ca
+  442  git status
+  443  vim .gitignore
+  444  vim .gitignore
+  445  vim .gitignore
+  446  vim .gitignore
+  447  git status
+  448  git status
+  449  git add .
+  450  git commit -m "lab partially completed and gitignore is setup"
+  451  clear
+  452  git log
+  453  clear
+  454  git push origin master
+  455  git log
+  456  git remote -V
+  457  git remote -v
+  458  cd ..
+  459  cd ..
+  460  git clone git@github.ubc.ca:mds-2024-25/DSCI_521_lab1_ksirwani.git
+  461  cd DSCI_521_lab1_ksirwani/
+  462  git remote -v
+  463  python
+  464  clear
+  465  cd ~/Documents/
+  466  cd ubc/DSCI_521_lab1_ksirwani/
+  467  git status
+  468  git add lab1.ipynb 
+  469  git commit -m "completed lab"
+  470  git status
+  471  git add lab1.ipynb 
+  472  git commit -m "text answers updated"
+  473  clear
+  474  git log
+  475  git status
+  476  git status
+  477  git status
+  478  git add lab1.ipynb 
+  479  git push origin master
+  480  git log
+  481  git status
+  482  git add lab1.Rmd 
+  483  git commit -m "lab1 completed without explanations"
+  484  git push origin master
+  485  clear
+  486  git status
+  487  git add lab1.Rmd 
+  488  git commit -m "lab1 submission made"
+  489  clear
+  490  jupyter lab
+  491  clear
+  492  cd DSCI_511_worksheet2_ksirwani/
+  493  clear
+  494  jupyter lab
+  495  cd ..
+  496  cd DSCI_511_lab1_ksirwani/
+  497  jupyter lab
+  498  jupyter lab
+  499  cd ..
+  500  cd DSCI_523_worksheet2_ksirwani/
+  501  cd ..
+  502  cd DSCI_511_worksheet2_ksirwani/
+  503  pandoc --version
+  504  jupyter lab
+  505  quarto 
+  506  ls
+  507  quarto render worksheet2.ipynb --to pdf
+  508  cd ..
+  509  cd DSCI_511_lab1_ksirwani/
+  510  git status
+  511  quarto render lab1.ipynb --to pdf
+  512  jupyter lab
+  513  (-5*0.9)**2 + (45*0.01)**2 + (5*0.09)**2
+  514  (-5*0.9) ** 2 + (45*0.01) ** 2 + (5*0.09) **2
+  515  (-5*0.9) ** 2 + (45*0.01) ** 2 + (5*0.09) ** 2
+  516  python
+  517  git status
+  518  git add img
+  519  git add lab1.Rmd
+  520  git add img/my_answer_2.jpg 
+  521  git add img/my_answer_3.jpg 
+  522  git status
+  523  git commit -m "pdf generated"
+  524  git log
+  525  git push origin master
+  526  cd ~/Documents/ubc/DSCI_511_lab1_ksirwani/
+  527  jupyter lab
+  528  git status
+  529  git add lab1.ipynb 
+  530  git commit -m "lab1 modified"
+  531  git push origin master
+  532  jupyter lab
+  533  git status
+  534  cd ~/Documents/ubc/DSCI_523_lab1_ksirwani/
+  535  git status
+  536  git add lab1.Rmd 
+  537  git commit -m "lab1 completed"
+  538  git push origin master
+  539  git status
+  540  cd ..
+  541  cd DSCI_551_lab1_ksirwani/
+  542  git sttaus
+  543  git status
+  544  rm -rf images/
+  545  git status
+  546  git add img/
+  547  git status
+  548  git add lab1.Rmds
+  549  git add lab1.Rmd
+  550  git status
+  551  git add lab1.Rmd 
+  552  git status
+  553  git commit -m "final submisison"
+  554  git push 
+  555  git status
+  556  git add img/my_answer_8.jpg 
+  557  git add lab1.Rmd 
+  558  git status
+  559  git commit -m "answer 8 updated"
+  560  clear
+  561  git push origin master
+  562  git status
+  563  git push
+  564  python
+  565  cd ~/Documents/ubc/
+  566  cd 551/
+  567  jupyter lab
+  568  cd ../511
+  569  jupyter lab
+  570  cd ../523
+  571  jupyter lab
+  572  ls
+  573  cd DSCI_523_r-prog_students/
+  574  git status
+  575  git log
+  576  git status
+  577  git stash
+  578  jupyter lab
+  579  clear
+  580  cd ~/Documents/ubc/511
+  581  clear
+  582  jupyter lab
+  583  git status
+  584  cd DSCI_511_py-prog_students/
+  585  git status
+  586  git stash
+  587  git pull origin master
+  588  git status
+  589  rm -rf jupyter-book/lecture-notes/my_imdb.csv 
+  590  git pull origin master
+  591  jupyter lab
+  592  cd ..
+  593  git clone git@github.ubc.ca:mds-2024-25/DSCI_511_worksheet3_ksirwani.git
+  594  cd DSCI_511_worksheet3_ksirwani/
+  595  jupyter lab
+  596  cd ..
+  597  jupyter lab
+  598  cd ../523
+  599  jupyter lab
+  600  jupyter lab
+  601  git clone git@github.ubc.ca:mds-2024-25/DSCI_523_worksheet3_ksirwani.git
+  602  git status
+  603  jupyter lab
+  604  jupyter lab
+  605  cd ~/Documents/ubc/521
+  606  jupyter lab
+  607  git clone git@github.ubc.ca:mds-2024-25/DSCI_521_platforms-dsci_students.git
+  608  python
+  609  clear
+  610  mkdir 2024_09_10
+  611  cd 2024_09_10
+  612  git init
+  613  code Readme.md
+  614  git status
+  615  git add Readme.md 
+  616  git commit -m "Readme added"
+  617  git push 
+  618  git remote add origin git@github.com:kartikwar/2024_09_10.git
+  619  git remote -V
+  620  git remote -v
+  621  git push 
+  622  git push origin main
+  623  git diff Readme.md 
+  624  git status
+  625  git status
+  626  git diff Readme.md 
+  627  git diff --staged Readme.md 
+  628  git add 
+  629  git add .
+  630  git diff Readme.md 
+  631  git diff --staged Readme.md 
+  632  git restore --staged Readme.md 
+  633  git status
+  634  git add .
+  635  git commit -m "hello added"
+  636  git branch -n kartik
+  637  git branch kartik
+  638  git checkout kartik
+  639  git branch -M master
+  640  git push origin master
+  641  git branch -M kartik
+  642  git push origin kartik
+  643  git log --oneline
+  644  git log 
+  645  git restore --source 4e8a24ae8953a7d8fccc626363fc9370d5bff5ad Readme.md 
+  646  git status
+  647  clear
+  648  git status
+  649  git stash
+  650  git status
+  651  git status
+  652  git add Readme.md 
+  653  git status
+  654  vim Kartik.md
+  655  git status
+  656  jupyter lab
+  657  clear
+  658  cd 511
+  659  cd ~/Documents/511
+  660  cd ~/Documents/ubc/511
+  661  clear
+  662  ls
+  663  git clone git@github.ubc.ca:mds-2024-25/DSCI_511_lab2_ksirwani.git
+  664  jupyter lab
+  665  cd DSCI_511_lab2_ksirwani/
+  666  git status
+  667  git add lab2.ipynb 
+  668  git commit -m "exercise 1 worked"
+  669  git push
+  670  cd 523
+  671  cd ~/Documents/ubc/523
+  672  jupyter lab
+  673  git clone git@github.ubc.ca:mds-2024-25/DSCI_523_lab2_ksirwani.git
+  674  jupyter lab
+  675  cd ../511
+  676  jupyter lab
+  677  cd DSCI_511_lab2_ksirwani/
+  678  git status
+  679  git add lab2.ipynb 
+  680  git commit -m "ex 1 corrected"
+  681  clear
+  682  cd ..
+  683  cd ..
+  684  git status
+  685  git add lab2.Rmd 
+  686  git commit -m "ex1 done"
+  687  clear
+  688  jupyter lab
+  689  jupyter lab
+  690  git status
+  691  git diff lab2.Rmd 
+  692  git add lab2.Rmd 
+  693  git commit -m "lab2 changed"
+  694  clear
+  695  jupyter lab
+  696  cd 511/DSCI_511_py-prog_students/
+  697  git add .
+  698  git commit -m "my notes"
+  699  git pull
+  700  git config pull.rebase false
+  701  git pull
+  702  git pull
+  703  git pull
+  704  cd 511
+  705  cd ~/Documents/ubc/
+  706  git clone git@github.ubc.ca:mds-2024-25/DSCI_511_worksheet4_ksirwani.git
+  707  jupyter lab
+  708  jupyter lab
+  709  cd 511
+  710  git clone git@github.ubc.ca:mds-2024-25/DSCI_511_worksheet4_ksirwani.git
+  711  jupyter lab
+  712  cd DSCI_511_worksheet3_ksirwani/
+  713  git status
+  714  git add worksheet3.ipynb 
+  715  git commit -m "worksheet3 completed"
+  716  clear
+  717  cd ..
+  718  jupyter lab
+  719  jupyter lab
+  720  cd ..
+  721  cd  523
+  722  git status
+  723  git add worksheet3.Rmd 
+  724  git commit -m "worksheet 3 completed"
+  725  cleart
+  726  clear
+  727  cd ..
+  728  git clone git@github.ubc.ca:mds-2024-25/DSCI_523_worksheet4_ksirwani.git
+  729  clear
+  730  git status
+  731  git add .
+  732  git commit -m "worksheet 4 ex 2 completed"
+  733  git status
+  734  git add worksheet4.Rmd 
+  735  git commit -m "worksheet 4 completed""
+  736   echo 22D3948C && echo $HISTCONTROL && /usr/bin/env && echo D303E166
+  737   
+  738  git commit -m "worksheet4 done""
+  739  q
+  740  q
+  741  git commit -m "worksheet done""
+  742   echo 22D3948C && echo $HISTCONTROL && /usr/bin/env && echo D303E166
+  743   
+  744  q
+  745  git add .
+  746  git commit -m "done""
+  747   echo 22D3948C && echo $HISTCONTROL && /usr/bin/env && echo D303E166
+  748   
+  749  jupyter lab
+  750  cd DSCI_523_worksheet4_ksirwani/
+  751  git status
+  752  git commit -m "worksheet 4 done"
+  753  clear
+  754  cd ..
+  755  cd ../551
+  756  cleaer
+  757  clear
+  758  ls
+  759  git clone git@github.ubc.ca:mds-2024-25/DSCI_551_lab2_ksirwani.git
+  760  git status
+  761  git log
+  762  git status
+  763  git add lab2.Rmd 
+  764  git commit -m "ex3 done""
+  765  git commit -m "ex3 done"
+  766  git status
+  767  git add lab2.Rmd 
+  768  git commit -m "ex 4 done""
+  769  q
+  770  git commit -m "ex 4 done"
+  771  python
+  772  cd 511
+  773  cd ~/Documents/511
+  774  cd ~/Documents/ubc/511
+  775  clear
+  776  cd ~/Documents/ubc/521
+  777  clear
+  778  git clone git@github.com:kartikwar/quarto-test.git
+  779  cd quarto-test/
+  780  clear
+  781  code README.md 
+  782  jupyter lab
+  783  which quarto
+  784  which python
+  785  which jupyter
+  786  quarto --version
+  787  quarto --help
+  788  quarto create project quarto-test
+  789  git status
+  790  quarto preview
+  791  git status
+  792  git add .
+  793  git commit -m "quarto setup"
+  794  git push
+  795  quarto render
+  796  cp _site/* docs/
+  797  git status
+  798  git add .
+  799  git commit -m "added docs"
+  800  git push
+  801  clear
+  802  history
+  803  history > output.history
